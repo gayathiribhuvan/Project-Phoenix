@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project Phoenix Customer Dashboard V1.1</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<style>
+    	/* BUG: Fixed width causes mobile overlap */
+    	.container {
+        	width: 900px;
+        	margin: 0 auto;
+        	padding: 1.5rem;
+    	}
+	</style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+	<header class="bg-indigo-700 text-white shadow-lg">
+    	<div class="container py-4 flex justify-between items-center">
+        	<h1 class="text-2xl font-bold">Project Phoenix Dashboard</h1>
+        	<span class="text-sm font-light">Version 1.1</span>
+    	</div>
+	</header>
+
+	<main class="container mt-8">
+    	<section class="bg-white p-6 rounded-xl shadow-xl">
+        	<h2 class="text-xl font-semibold text-indigo-700 mb-4 border-b pb-2">
+				New Features (Mobile Bug Present!)
+			</h2>
+        	<p>Content overlaps on mobile due to fixed container width.</p>
+    	</section>
+	</main>
+
+</body>
+</html>
